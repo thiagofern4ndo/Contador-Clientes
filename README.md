@@ -1,16 +1,8 @@
-# contador_clientes
+# Aplicativo para controlar entrada e saída de clientes de um estabelecimento comercial
 
-A new Flutter project.
 
-## Getting Started
+<h4>Requisitos de uso: É necessário ter Flutter e Dart SDK instalados</h4> <br>
+<p>Aplicação simples que incrementa um usuário sempre que alguém registra a entrada e decrementa sempre que um usuário registra a saída. <br> 
+No estado atual do aplicativo, ele está limitado a 50 pessoas, o que é facilmente modificável. A mensagem principal muda para "Aguarde" quando está cheio.</p>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="./assets/app.contador.png.png" alt="imagem da aplicativo">

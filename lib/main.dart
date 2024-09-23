@@ -57,12 +57,19 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(
-              isFull ? 'Aguarde' : 'Usuários',
-              style: const TextStyle(
-                fontSize: 45,
-                color: Colors.white,
-                fontWeight: FontWeight.w900,
+            Container(
+              decoration: BoxDecoration (
+              color: Colors.black.withOpacity(0.5), 
+              borderRadius: BorderRadius.circular(15),
+              ),
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10), 
+              child: Text(
+                isFull ? 'Aguarde' : 'Usuários',
+                style: const TextStyle(
+                  fontSize: 45,
+                  color: Colors.white, 
+                  fontWeight: FontWeight.w900,
+                ),
               ),
             ),
             Padding(
@@ -71,7 +78,7 @@ class _HomePageState extends State<HomePage> {
                 count.toString(),
                 style: TextStyle(
                   fontSize: 100,
-                  color: isFull ? Colors.red : Colors.white,  
+                  color: isFull ? Colors.red : Colors.white,
                   fontWeight: FontWeight.w700,
                 ),
               ),
@@ -133,4 +140,3 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
-
